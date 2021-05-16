@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// Import Global State Provider
+import { GlobalProvider } from "./contexts/GlobalContext";
+// Import style-components
+import { ThemeProvider } from "styled-components";
+// Import Main Container of application
+import { MainContainer } from "./containers/MainContainer";
+// Import primary theme of application
+import { primaryTheme } from "./constants/Theme";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GlobalProvider>
+      <ThemeProvider theme={primaryTheme}>
+        <MainContainer />
+      </ThemeProvider>
+    </GlobalProvider>
   );
 }
-
 export default App;
