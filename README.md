@@ -30,6 +30,8 @@ In case you missed some of the more nuanced features of the code, here are sever
 
 #### **Chat Message Bubbling**
 > As the chat bot (or user) types multiple messages, the chat bubbles will group together on the left-hand side as more and more messages appear to always appear connected to each other. If one message is sent, the message will appear as a rounded pill. If two message are sent, the two messages will combine where they are adjacent to form a pill-like shape. If three or more messages are sent, the first and last messages will have rounded corners while the messages in the middle appear flat on the side. This feature can be seen in the Lemonade App (which was use for inspiration of this project). There are other css animations going on as well, but I believe this one really gives the application the feel of a mobile chat app.
+> 
+> ![image](https://user-images.githubusercontent.com/38920987/118435990-cf0bbc80-b694-11eb-9870-f55587532f34.png)
 
 #### **Global Theme Management**
 > Styles can be a hassle to change, especially of there are multiple themes you are going for. To resolve this issue, a Themes.js file (in constants folder) was made in order to keep all stylistic choices in one place. By changing a parameter of a theme object, the change will persist throughout the entire application. This removes the need of changing, say, the primary color of your application everywhere it is used.
