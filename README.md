@@ -2,6 +2,10 @@
 
 This project was created as part of the interview process for Manifest. In this project, you will find a fully-automated chat bot that asks the user to respond to predefined questions and answers. Although the application is meant for mobile view, it is fully responsive on desktop as well and maintains the same layout.
 
+## Getting Started Online
+
+A demo of the application is posted on [AWS](https://manifest-project.s3-us-west-1.amazonaws.com/index.html) in the event that you do not want to install the project on your Local Machine.
+
 ## Getting Started on your Local Machine
 
 In the project directory, you can run:
