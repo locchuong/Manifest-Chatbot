@@ -42,6 +42,14 @@ In case you missed some of the more nuanced features of the code, here are sever
 #### **Styled Components**
 > This application was built with the mindset that components will be reused in other places of the application. As such, each component is divided into their own respective files to enstill encapsulation. Having said that, learning styled-components on the fly really elevated this methodology of reusability. In addition, styled-components allow for logic and styles to coincide in the same files, reducing the need for css files and improving readability.
 
+## Known Issues
+
+#### **Max-height CSS Animation**
+> The max-height: 0% to max-height: (Some high number) transition is used on the chat bubbles to make them expand from height 0 to their appropriate height. Although there is an advantage to the ease of use of this method for expanding divs to their correct height for animations, it causes a slight delay in the animation as the max-height has to be a specific number. This causes the expanding animation of the chat bubbles to be slightly off timed, but another solution has not been found to this yet.
+
+#### **Date-Picker**
+> The part of the chat bot which asks the user for their Date of Birth displays a simple date picker for the user. This is an issue as mobile devices often use a date roller rather than a text-input. Ultimately, this is a stylistic choice, but it does make the application less appealing in my opinion. There is no known react port for the ios date roller and the only alternative would be to switch to React Native.
+
 ## Dependencies/Languages
 
 ### `Javascript` `HTML5` `CSS3` `React` `Styled-Components` `React-Date-Picker`
