@@ -37,8 +37,8 @@ In case you missed some of the more nuanced features of the code, here are sever
 #### **Fully Responsive**
 > Although this application is meant to be used as a mobile app, it is fully responsive throughout. Having said that, the application looks the best on mobile and should be used on a mobile device.
 
-#### **Atomic Design Methodology**
-> This application was built with the mindset that components will be reused in other places of the application. As such, each component is divided into their own respective files to enstill encapsulation. Having said that, learning styled-components on the fly really elevated this methodology of reusability.
+#### **Styled Components**
+> This application was built with the mindset that components will be reused in other places of the application. As such, each component is divided into their own respective files to enstill encapsulation. Having said that, learning styled-components on the fly really elevated this methodology of reusability. In addition, styled-components allow for logic and styles to coincide in the same files, reducing the need for css files and improving readability.
 
 ## Dependencies/Languages
 
